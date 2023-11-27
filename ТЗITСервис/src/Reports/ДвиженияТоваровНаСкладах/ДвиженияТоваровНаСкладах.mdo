@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1b3b90b-eb37-4fed-a17d-e3cb7bf67944">
+  <producedTypes>
+    <objectType typeId="6a476cda-e087-43fb-b959-8681c5bbbd4f" valueTypeId="afb74d24-c6a2-4c3c-8a77-c0c5b766d6d8"/>
+    <managerType typeId="1880215f-06f9-4041-af46-f8738b038c3f" valueTypeId="ad6d3da7-9ca0-4221-837e-68337d9ade5d"/>
+  </producedTypes>
+  <name>ДвиженияТоваровНаСкладах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движения товаров на складах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ДвиженияТоваровНаСкладах.Template.ОсновнаяСхемаКомпоновкиДанных1</mainDataCompositionSchema>
+  <templates uuid="667e13c8-9c62-49a9-95f4-e00782dff24c">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="d5f96392-a4f6-40be-8cb6-1e53c6a4073e">
+    <name>ОсновнаяСхемаКомпоновкиДанных1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных1</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

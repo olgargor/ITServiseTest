@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a711c985-1897-441f-b515-62be0d415ddb">
+  <producedTypes>
+    <selectionType typeId="2def7a9a-bec2-4e88-aaa7-e49e4c6adbdf" valueTypeId="61a34890-6342-4c42-84fb-3a2c706ffd79"/>
+    <listType typeId="c46e02ff-852e-4ead-88c2-9b4e84ac642d" valueTypeId="2805696f-ebe2-41d4-a882-d263dba0b853"/>
+    <managerType typeId="829d074d-0dfc-4cf5-8a2d-dffd3f741134" valueTypeId="3ccc3a53-d76c-46cb-9688-cd662ff964d7"/>
+    <recordSetType typeId="b017f8e0-0a47-42c9-92e1-359997c8b11e" valueTypeId="fcbef518-e112-41f8-83dc-cc570e8cb096"/>
+    <recordKeyType typeId="d383537a-5028-48fd-9015-aa6c53b17fdd" valueTypeId="672c2237-bd1f-4ce3-921f-05d9a7ba4278"/>
+    <recordType typeId="24a46491-4473-4bde-9a03-19cf8b0c2782" valueTypeId="bfcfebc8-9cf8-4f16-b429-6bc525df6375"/>
+  </producedTypes>
+  <name>Взаиморасчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.Взаиморасчеты.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="dfff3264-7f43-4076-9eca-a13a821cfae5">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="654ff9a6-6b9c-4046-838a-5e550a5cd5e4">
+    <name>КодОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код операции</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="b3862318-720d-4840-a559-163716f93ea2">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="3131b674-ab9a-4b8e-b8bb-bcf5626de853">
+    <name>Договор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Договоры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="48be0d9c-1cc7-44e3-8856-eab6e2a4f2d2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4f767b3-608b-48fc-87bf-62af5af59b2b">
+  <producedTypes>
+    <objectType typeId="12b8f390-d5cf-42f9-af66-aa9dff4c0336" valueTypeId="04e23ffc-2d10-46ad-9748-dbdfc49c8c86"/>
+    <managerType typeId="9fa21bb0-4e02-44dd-a205-fdca80f38bbe" valueTypeId="7a415b18-df8a-4523-85e4-5949a057175a"/>
+  </producedTypes>
+  <name>Задание1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задание №1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Задание1.Form.Форма</defaultForm>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Поменять местами числа</value>
+  </extendedPresentation>
+  <forms uuid="3cf7565f-e5d5-4b84-8005-d4907e7814e6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37e2c16f-c128-4e7f-825d-f0451062e41f">
+  <producedTypes>
+    <selectionType typeId="a2583490-6d94-4c6f-8df6-14525e86a3c4" valueTypeId="0f1410ca-4cb2-459a-9bd0-1a94e8874461"/>
+    <listType typeId="7246134d-f96d-4ed5-9dec-5bac481665d9" valueTypeId="1093c148-6dd4-41ad-9285-18bc4b621dd4"/>
+    <managerType typeId="4bf64efd-0acd-4acf-8951-89cbddbcf235" valueTypeId="934a2acc-5a1a-489c-922f-6713cedc7ec3"/>
+    <recordSetType typeId="fa54815b-8f09-411d-8ecd-45e648935347" valueTypeId="baa10f95-1da6-4a6c-8688-33239387167d"/>
+    <recordKeyType typeId="f5cfec7f-55c6-458c-8b8e-ffda275db8aa" valueTypeId="5a096d6e-59f3-46ed-a3b6-539ed6bedafe"/>
+    <recordType typeId="8e587f2f-de0f-43b7-a2b4-ef3818d9f82e" valueTypeId="74add488-7db5-4f1d-836d-391b1d619b58"/>
+  </producedTypes>
+  <name>Остатки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>AccumulationRegister.Остатки.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="6fa439ce-576c-4068-b8d9-4e4c769d17d8">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="02c95a39-f712-4d9e-a2e4-95d282e68d87">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="542e7cd4-13b5-4a77-8971-8e8e8eb01f8f">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <forms uuid="9ab24042-9bc2-4362-9337-5f52066c5e98">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:AccumulationRegister>

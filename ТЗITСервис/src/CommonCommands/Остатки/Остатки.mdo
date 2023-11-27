@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89f6b3d3-b4c1-4843-b5ad-395995434946">
+  <name>Остатки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>DocumentRef.Реализация</types>
+    <types>DocumentRef.Поступление</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

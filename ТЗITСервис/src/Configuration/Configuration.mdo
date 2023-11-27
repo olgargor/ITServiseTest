@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91cf25c9-7903-44e4-b81b-5b8aa348a2f5">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="eb54cd11-658e-41b2-807d-0f52dd4843b0"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="e307093a-5612-49cb-8b70-bcd0157f112c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="25d48a6f-63bb-4752-8740-842ebe9fb020"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="0025ae79-2398-4f4a-a0cb-5072b318c7bf"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2fe73753-117a-48f6-a2e3-ce97c9357e46"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c19d4575-387d-4ba4-ac61-dd236812c1f2"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="c35680dd-d85f-4d1a-93ae-f7525ff71a98"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="5180f622-1d8f-414c-9b11-4f84ccea03cd">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Основная</subsystems>
+  <subsystems>Subsystem.Система</subsystems>
+  <commonModules>CommonModule.Переопределяемый</commonModules>
+  <commonModules>CommonModule.ОбщийМодуль1</commonModules>
+  <commonCommands>CommonCommand.Взаиморасчеты</commonCommands>
+  <commonCommands>CommonCommand.Остатки</commonCommands>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Договоры</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.СерийныеНомера</catalogs>
+  <documents>Document.Поступление</documents>
+  <documents>Document.Реализация</documents>
+  <documents>Document.ПоступлениеБезналичныхДенежныхСредств</documents>
+  <documents>Document.СписаниеБезналичныхДенежныхСредств</documents>
+  <reports>Report.ДвиженияТоваровНаСкладах</reports>
+  <dataProcessors>DataProcessor.Задание1</dataProcessors>
+  <dataProcessors>DataProcessor.Задание13</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныПродажи</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Остатки</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
+</mdclass:Configuration>
